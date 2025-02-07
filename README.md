@@ -1,7 +1,7 @@
 # 酒余茶后
 
 <p align='center'>
-<a href="https://github.com/yyi0708/jych-landing-website/main/README.en-US.md">English</a> | <b>简体中文</b>
+<a href="https://github.com/yyi0708/jych-landing-website/blob/main/README.en-US.md">English</a> | <b>简体中文</b>
 </p>
 
 轻松导航、管理 tab、句子摘抄、学习哲学易经，浏览器拓展插件工具产品介绍页.
