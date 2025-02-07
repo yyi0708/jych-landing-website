@@ -33,3 +33,7 @@ jobs:
       # 构建项目
       - name: Build project
         run: pnpm run build:gh
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
