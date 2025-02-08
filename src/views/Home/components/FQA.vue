@@ -22,7 +22,7 @@
               type="button"
               class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
             >
-              <span>{{ faq.question }}</span>
+              <span class="dark:text-gray-300">{{ faq.question }}</span>
               <svg
                 :class="{ 'rotate-180': activeIndex === index }"
                 class="w-6 h-6 shrink-0 transition-transform"
@@ -45,7 +45,7 @@
           >
             <div
               v-html="faq.answer"
-              class="text-gray-500 dark:text-gray-400"
+              class="text-gray-500 dark:text-gray-300"
             ></div>
           </div>
         </div>

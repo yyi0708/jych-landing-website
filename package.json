@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://yyi0708.github.io/jych-landing-website/",
+  "author": "yi.yang",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

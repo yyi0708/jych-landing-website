@@ -18,41 +18,95 @@
           class="w-4/5 pl-8 mt-6 mb-8 font-light leading-relaxed text-gray-900 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-200"
         ></p>
 
-        <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 justify-center">
-          <a
-            href="https://limit-pc.20133075.xyz/link/JMH2ZAfLAaqwJtNBPro3K4UfVi3vZ6NDps8ByUAooe7MQHf2E2JtdY8xkReb9RZ8DaZOzwKtHSE16HvhkRi2rL"
-            target="_blank"
-            class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+        <div
+          class="my-12 space-y-4 sm:flex sm:space-y-0 sm:space-x-4 justify-center"
+        >
+          <div
+            @click="clickBtn('chrome')"
+            class="relative inline-flex items-center justify-center gap-4 group"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="w-5 h-5 mr-2"
-              viewBox="0 0 16 16"
+            <div
+              class="absolute inset-0 duration-1000 opacity-60 transitiona-all bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-400 rounded-xl blur-lg filter group-hover:opacity-100 group-hover:duration-200"
+            ></div>
+            <a
+              role="button"
+              class="group relative inline-flex items-center justify-center text-base rounded-xl bg-gray-900 px-8 py-3 font-semibold text-white transition-all duration-200 hover:bg-gray-800 hover:shadow-lg hover:-translate-y-0.5 hover:shadow-gray-600/30"
+              title="payment"
+              href="#"
             >
-              <path
-                fill="#7c3aed"
-                d="M10.9 0c.144.973-.254 1.92-.779 2.6c-.562.721-1.53 1.28-2.47 1.25c-.171-.931.268-1.89.8-2.53c.585-.712 1.59-1.26 2.45-1.32zm.4 4c1.07 0 2.2.583 3.01 1.59c-2.65 1.45-2.22 5.23.458 6.24q-.418.998-1.02 1.9c-.661 1.01-1.59 2.26-2.75 2.27c-.476.004-.787-.138-1.12-.292c-.39-.178-.812-.371-1.56-.368c-.744.004-1.17.195-1.57.371c-.345.154-.663.295-1.14.291c-1.16-.01-2.04-1.14-2.7-2.15c-1.85-2.81-2.04-6.12-.903-7.87c.811-1.25 2.09-1.98 3.29-1.98c.641 0 1.16.184 1.65.36c.447.159.874.312 1.36.312c.446 0 .813-.139 1.21-.29c.481-.182 1.01-.382 1.78-.382z"
-              />
-            </svg>
-            <span>Mac</span>
-          </a>
-          <a
-            href="https://limit-pc.20133075.xyz/link/JMH2ZAfLAariuMZDxnmXztmDCiMXecATrfZrrYEk6M2eIntGfkNUwpsK7I0Jxxf7xDlDaNTCUGfaESD4siI249"
-            target="_blank"
-            class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+              {{ t("extra.chrome") }}
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 10 10"
+                height="10"
+                width="10"
+                fill="none"
+                class="mt-0.5 ml-2 -mr-1 stroke-white stroke-2"
+              >
+                <path
+                  d="M0 5h7"
+                  class="transition opacity-0 group-hover:opacity-100"
+                ></path>
+                <path
+                  d="M1 1l4 4-4 4"
+                  class="transition group-hover:translate-x-[3px]"
+                ></path>
+              </svg>
+            </a>
+          </div>
+
+          <div
+            @click="clickBtn('edge')"
+            class="relative inline-flex items-center justify-center gap-4 group"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="w-5 h-5 mr-2"
-              viewBox="0 0 24 24"
+            <div
+              class="absolute inset-0 duration-1000 opacity-60 transitiona-all bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-400 rounded-xl blur-lg filter group-hover:opacity-100 group-hover:duration-200"
+            ></div>
+            <a
+              role="button"
+              class="group relative inline-flex items-center justify-center text-base rounded-xl bg-gray-900 px-8 py-3 font-semibold text-white transition-all duration-200 hover:bg-gray-800 hover:shadow-lg hover:-translate-y-0.5 hover:shadow-gray-600/30"
+              title="payment"
+              href="#"
             >
-              <path
-                fill="#0891b2"
-                d="m3 5.549l7.195-.967v7.029l-7.188.054zm7.195 6.842v7.105l-7.19-.985v-6.12zm.918-7.935L20.998 3v8.533l-9.885.078zM21 12.505L20.998 21l-9.885-1.353v-7.142z"
-              />
-            </svg>
-            <span>Windows</span>
-          </a>
+              {{ t("extra.edge") }}
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 10 10"
+                height="10"
+                width="10"
+                fill="none"
+                class="mt-0.5 ml-2 -mr-1 stroke-white stroke-2"
+              >
+                <path
+                  d="M0 5h7"
+                  class="transition opacity-0 group-hover:opacity-100"
+                ></path>
+                <path
+                  d="M1 1l4 4-4 4"
+                  class="transition group-hover:translate-x-[3px]"
+                ></path>
+              </svg>
+            </a>
+          </div>
+
+          <div class="flex justify-center items-center gap-12 h-full">
+            <div
+              class="bg-gradient-to-b from-stone-300/40 to-transparent p-[4px] rounded-[16px]"
+            >
+              <button
+                @click="clickBtn('file')"
+                class="group p-[4px] rounded-[12px] bg-gradient-to-b from-white to-stone-200/40 shadow-[0_1px_3px_rgba(0,0,0,0.5)] active:shadow-[0_0px_1px_rgba(0,0,0,0.5)] active:scale-[0.995]"
+              >
+                <div
+                  class="bg-gradient-to-b from-stone-200/40 to-white/80 rounded-[8px] px-2 py-2"
+                >
+                  <div class="flex gap-2 items-center">
+                    <span class="font-semibold">{{ t("extra.file") }}</span>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
         </div>
 
         <img class="mx-auto my-10" :src="TabMore" alt="" />
@@ -66,6 +120,18 @@ import { useI18n } from "vue-i18n";
 import TabMore from "@/assets/tab—more.png";
 
 const { t } = useI18n();
+
+// click event
+function clickBtn(type) {
+  if (type === "file") {
+    return window.open(
+      "https://github.com/yyi0708/jych-landing-website/releases/download/v0.1.7/jych.-0.1.7.zip",
+      "_self"
+    );
+  }
+
+  window.alert(`${type} plugin, Coming soon...`);
+}
 </script>
 
 <style scoped></style>

@@ -2,17 +2,21 @@ export default {
   nav: {
     home: "首页",
     download: "下载",
-    detail: "介绍",
+    detail: "功能",
     fqa: "问题",
-    sponsor: "赞助",
-    version: "版本信息",
+    video: "视频介绍",
+  },
+  extra: {
+    chrome: "添加Chrome拓展",
+    edge: "添加Edge拓展",
+    file: "下载文件",
   },
   baseInfo: {
     title: "酒余茶后",
     title1: "「酒余茶后」",
     title2: "轻松导航、管理tab、句子摘抄、学习哲学易经工具",
     email: "邮箱",
-    desc: "核心出发点，解决浏览器打开<strong>tab过多</strong>造成的问题。思路有二，新标签页中默认使用<strong>“iframe”模式</strong>打开网址，避免造成临时网址Tab过多；并且popup页面的<strong>tabox网址集</strong>，解决分类、批量打开、关闭新窗口或当前窗口，同时支持无痕窗口打开。<br/> <br/> 其次，新标签页提供，快速打开导航（常用网址），暖心句子、哲学易经模块，拓展发现之旅；<br/> <br/>最后，支持类似V2EX等网站base64，选中点击，即可解码同时复制剪切板，方便用户快捷联系。",
+    desc: "核心出发点，解决浏览器打开 <strong>tab过多</strong> 造成的问题。思路有二，新标签页中默认使用 <strong>“iframe”模式</strong> 打开网址，避免造成临时网址Tab过多；并且popup页面的 <strong>tabox网址集</strong>，解决分类、批量打开、关闭新窗口或当前窗口，同时支持无痕窗口打开。<br/> <br/> 其次，新标签页提供，快速打开导航（常用网址），暖心句子、哲学易经模块，拓展发现之旅；<br/> <br/>最后，支持类似V2EX等网站，选中base64出现图标，点击即可解码并复制剪切板，方便用户快捷联系。",
   },
   detail: {
     matting: {
@@ -26,7 +30,7 @@ export default {
     certificate: {
       title: "Popup-标签页管理（tabox）",
       desc: "管理新建、导出/导入、批量打开/关闭、无痕窗口，Tab收藏集。",
-      feature1: "支持新增、删除、编辑、导出、导入操作",
+      feature1: "支持新增、删除、编辑、导出、导入收藏集操作",
       feature2: "支持无痕窗口、批量打开、批量关闭功能",
       feature3: "支持当前窗口，或新窗口，打开Tab收藏集",
       feature4: "支持右键菜单，快捷添加当前网址到收藏集",
@@ -61,7 +65,7 @@ export default {
         question: "jych-tabox，与tabox插件区别？",
         answer: `
           1. jych-tabox，更强UI体验。<br/>
-          2. jych-tabox，增加了无痕窗口打开、保证特殊地址安全访问。
+          2. jych-tabox，增加了无痕窗口打开、保证特殊地址安全访问。<br/>
           3. jych-tabox, 平台特定导出导入数据，同时也支持tabox插件使用用户导出格式兼容。
           `,
       },

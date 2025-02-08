@@ -4,8 +4,12 @@ export default {
     download: "Download",
     detail: "Detail",
     fqa: "FAQ",
-    sponsor: "Sponsor",
-    version: "Version Info",
+    video: "video",
+  },
+  extra: {
+    chrome: "Add to Chrome Extension",
+    edge: "Add to Edge Extension",
+    file: "Download File",
   },
   baseInfo: {
     title: "After Wine and Tea",

@@ -8,6 +8,9 @@
   <!-- 详情 -->
   <Detail />
 
+  <!-- video -->
+  <Video></Video>
+
   <!-- fqas -->
   <FQA />
 
@@ -24,7 +27,7 @@ import FQA from "@/views/Home/components/FQA.vue";
 import Detail from "@/views/Home/components/Detail.vue";
 import FooterZone from "@/views/Home/components/Footer.vue";
 import BaseInfo from "@/views/Home/components/BaseInfo.vue";
-// import Sponsor from "@/views/Home/components/Sponsor.vue";
+import Video from "@/views/Home/components/video.vue";
 import Fix from "@/views/Home/components/Fix.vue";
 </script>
 
