@@ -128,6 +128,10 @@ function clickBtn(type) {
       "https://github.com/yyi0708/jych-landing-website/releases/download/v0.1.7/jych.-0.1.7.zip",
       "_self"
     );
+  } else if (type === "edge") {
+    return window.open(
+      "https://microsoftedge.microsoft.com/addons/detail/naglibpncoindamemkljkhbcfcighcjd"
+    );
   }
 
   window.alert(`${type} plugin, Coming soon...`);
