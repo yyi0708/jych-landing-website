@@ -132,9 +132,11 @@ function clickBtn(type) {
     return window.open(
       "https://microsoftedge.microsoft.com/addons/detail/naglibpncoindamemkljkhbcfcighcjd"
     );
+  } else {
+    return window.open(
+      "https://chromewebstore.google.com/detail/imdnpjclinenkkocddoghidfkobbamba?utm_source=item-share-cb"
+    );
   }
-
-  window.alert(`${type} plugin, Coming soon...`);
 }
 </script>
 
